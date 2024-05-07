@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #333D29;
+    --secondary-color: #414833;
+    --accent1-color: #656D4A;
+    --accent2-color: #A4AC86;
+
+    --heading-font: #1e4938, serif;
+    --paragraph-font: #408b39, serif;
+
+    --nav-background-color: #5fa8d3;
+    --nav-link-color: #5fa8d3;
+    --nav-hover-link-color: #f5f4f7;
+    --nav-hover-background-color: #C2C5AA;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: #333;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
