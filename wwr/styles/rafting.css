@@ -22,6 +22,7 @@ h1 {
 p article {
   color: white;
   background-color: #212529;
+  font-family: 'Briem Hand';
 }
 
 img article {
@@ -39,21 +40,41 @@ body {
 }
 
 .hero {
-  position: relative; 
+  position: relative;
   width: 100%;
+  max-width: 600px; 
+  margin: 0 auto; 
 }
 
 .hero img {
   display: block;
   width: 100%;
+  height: auto;
 }
 
 .hero h1 {
-  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 1px;
+  left: 30%;
+  background-color: #236cb9ad;
+  padding: 5px;
 }
 
 .hero article {
-  left: 20px;
-  background-color: rgba(190, 184, 184, 0.7); 
-  padding: 20px;
+  position: absolute;
+  bottom: 100px;
+  background-color: #52555894;
+  padding: 10px;
+}
+
+.hero article img {
+  width: 70px;
+  float: right;
+  margin-left: 5px;
+}
+
+.hero article p {
+  line-height: 1;
+  color: #0c0a0a;
+  margin: 0;
 }
