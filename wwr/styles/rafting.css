@@ -1,3 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --accent-color: #28a745;
+  --body-bg: #ffffff;
+  --text-color: #212529;
+  --link-color: #007bff;
+}
 
+nav a{
+  font-family: 'Playfair Display';
+  font-size: small;
+}
+
+h1 {
+    color: #333;
+    background-color: #7fb1e7;
+}
+
+p article {
+  color: white;
+  background-color: #212529;
+}
+
+img article {
+  right: 50%;
+}
+
+.social-media-links a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.hero {
+  position: relative; 
+  width: 100%;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+}
+
+.hero h1 {
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.hero article {
+  left: 20px;
+  background-color: rgba(190, 184, 184, 0.7); 
+  padding: 20px;
+}
