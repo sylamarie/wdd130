@@ -55,9 +55,11 @@ body {
 .hero h1 {
   position: absolute;
   top: 1px;
-  left: 30%;
+  left: 0.5%;
   background-color: #236cb9ad;
   padding: 5px;
+  width: 97.5%;
+  text-align: center;
 }
 
 .hero article {
