@@ -4,15 +4,26 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 16px;
+    display: block;
+    margin: 8px;
+}
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: beige;
+    color: #fff;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 nav h1 {
@@ -49,7 +60,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 47px;
+    top: 45px;
+    left: 60px;
 }
 
 main img {
@@ -57,7 +69,15 @@ main img {
     height: auto;
     /* I'll float my profile to the right */
     float: right;
-    
+}
+
+main h1 {
+    border-bottom: 2px solid steelblue;
+    padding-bottom: 10px;
+}
+
+main p {
+    padding-top: 10px;
 }
 
 footer {
@@ -76,7 +96,26 @@ footer {
     color: #000;
 }
 
-header, footer {
+header, .grid, footer {
     max-width: 840px;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+    width: 80%;
+    margin-right: 400px;
+}
+
+aside {
+    width: ;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
