@@ -31,10 +31,6 @@ p {
     padding: 0;
 }
 
-main {
-    max-width: 840px;
-}
-
 aside {
     width: 20rem;
     margin: 1rem;
@@ -78,4 +74,9 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+header, footer {
+    max-width: 840px;
+    margin: auto;
 }
