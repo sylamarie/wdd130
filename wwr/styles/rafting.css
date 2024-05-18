@@ -80,10 +80,11 @@ h1 {
     font-family: 'Playfair Display';
 }
 
-p article {
-  color: white;
-  background-color: #212529;
+article h2 {
+  color: rgb(15, 79, 116);
   font-family: 'Briem Hand';
+  text-align: center;
+  font-size: 30px;
 }
 
 img article {
@@ -124,7 +125,7 @@ body {
   position: absolute;
   top: 1px;
   left: 0.5%;
-  background-color: rgba(96, 144, 172, 0.582);
+  background-color: rgba(154, 185, 202, 0.582);
   padding: 5px;
   width: 206.5%;
   text-align: center;
@@ -135,7 +136,7 @@ body {
 .hero article {
   position: absolute;
   bottom: 100px;
-  background-color: #52555894;
+  background-color: rgba(154, 185, 202, 0.582);
   padding: 10px;
   margin: 6rem 10rem 1rem -18rem;
   width: 205%;
