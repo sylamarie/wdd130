@@ -208,7 +208,7 @@ section h2 {
   padding: 2px;
 }
 
-.gallery figure {
+figure {
   border: thin #000000 solid;
   display: flex;
   flex-flow: column;
