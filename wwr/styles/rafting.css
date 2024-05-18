@@ -213,7 +213,6 @@ section h2 {
   display: flex;
   flex-flow: column;
   padding: 5px;
-  max-width: auto;
   margin: 9px;
   border-radius: 10px;
 }
