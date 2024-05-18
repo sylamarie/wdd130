@@ -23,7 +23,9 @@ header {
   background-color: rgb(96, 144, 172);
   padding: 20px;
   padding-inline-start: 10px;
-  width: 96%;
+  width: 101%;
+  border-radius: 10px;
+  margin: 1rem -10rem 1rem 1rem;
 }
 
 nav {
@@ -112,7 +114,7 @@ body {
 
 .hero img {
   display: block;
-  width: 198%;
+  width: 208.5%;
   height: auto;
   border-radius: 10px;
   margin: 1rem 1rem 1rem -18rem;
@@ -124,8 +126,10 @@ body {
   left: 0.5%;
   background-color: rgba(96, 144, 172, 0.582);
   padding: 5px;
-  width: 97.5%;
+  width: 206.5%;
   text-align: center;
+  margin: 6rem 10rem 1rem -18.1rem;
+  font-size: 80px;
 }
 
 .hero article {
@@ -133,10 +137,12 @@ body {
   bottom: 100px;
   background-color: #52555894;
   padding: 10px;
+  margin: 6rem 10rem 1rem -18rem;
+  width: 205%;
 }
 
 .hero article img {
-  width: 70px;
+  width: 100px;
   float: right;
   margin-left: 5px;
 }
@@ -145,20 +151,38 @@ body {
   line-height: 1;
   color: #0c0a0a;
   margin: 0;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 35px;
 }
 
 .history {
   border: 1px solid black;
   padding: 0;
-  margin: 1rem -0.1rem 1rem 0.7rem;
+  margin: 1rem -4rem 1rem 0.7rem;
   border-radius: 10px;
+}
+
+.history h2 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.para {
+  font-size: 20px;
+  margin: 5px;
 }
 
 .adventure {
   border: 1px solid black;
   padding: 0;
-  margin: 1rem -0.1rem 1rem 0.7rem;
+  margin: 1rem -4rem 1rem 0.7rem;
   border-radius: 10px;
+}
+
+.adventure h2 {
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 section {
@@ -174,7 +198,7 @@ section h2 {
 
 .gallery {
   display: grid;
-  grid-template-columns: 405px 395px 425px;
+  grid-template-columns: 430px 400px 410px;
   justify-content: space-around;
   margin: 1px;
   max-width: 10%;
@@ -183,17 +207,45 @@ section h2 {
   padding: 2px;
 }
 
-footer .social-media-links {
+.gallery figure {
+  border: thin #000000 solid;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  padding: 5px;
+  max-width: auto;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.foot {
+  background-color: rgb(96, 144, 172);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem -4rem 1rem 0.8rem;
+  display: grid;
+  grid-template-columns: 700px 1fr;
+  align-items: center;
+  font-family: 'Playfair Display';
+  padding-left: 140px;
+  border-radius: 10px;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .sociallinks {
+  display: flex;
   margin: 10px;
 }
 
-footer .social-media-links a {
+footer .sociallinks a {
   margin: 0 10px;
 }
 
-footer .social-media-links img {
-  width: 30px;
-  height: 30px;
+footer .sociallinks img {
+  width: 50px;
+  height: 50px;
 }
