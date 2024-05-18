@@ -208,13 +208,13 @@ section h2 {
   padding: 2px;
 }
 
-figure {
+.gallery figure {
   border: thin #000000 solid;
   display: flex;
   flex-flow: column;
   padding: 5px;
   max-width: auto;
-  margin: auto;
+  margin: 9px;
   border-radius: 10px;
 }
 
