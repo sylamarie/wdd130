@@ -96,6 +96,10 @@ footer {
     color: #000;
 }
 
+.box h2 {
+    color: rgb(10, 73, 31);
+}
+ 
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
