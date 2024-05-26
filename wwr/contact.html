@@ -41,17 +41,23 @@
            <div class="contact-form">
             <h2>Get in Touch</h2>
             <form action="#" method="post">
-                <input type="text" name="username" placeholder="Your Name" required><br>
-                <input type="text" name="email" placeholder="Your Email" required><br>
+                <label for="username">Your Name:</label>
+                <input type="text" id="username" name="username" placeholder="Your Name" required><br>
+                <label for="email">Your Email:</label>
+                <input type="text" id="email" name="email" placeholder="Your Email" required><br>
                 <label>Please select the type of inquiry:</label>
-            <div class="inquiry">
-                <input type="radio" name="inquiry" value="general"> General Inquiry
-                <input type="radio" name="inquiry" value="reservation"> Reservation Question
-                <input type="radio" name="inquiry" value="suggestion"> Website Suggestion
-            </div>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
-                <label>
-                    <input type="checkbox" name="subscribe" value="yes">
+                <div class="inquiry">
+                    <input type="radio" id="general" name="inquiry" value="general">
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" id="reservation" name="inquiry" value="reservation">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="suggestion" name="inquiry" value="suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea><br>
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
                     Please subscribe to the monthly newsletter
                 </label><br><br>
                 <button type="submit">Submit</button>
