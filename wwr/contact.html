@@ -24,7 +24,9 @@
         <main> 
            <div class="contact">
            <h1>CONTACT US</h1>
-           <h2><img src="images/home.png" alt="address">Concepcion, Tarlac</h2>
+           <p>Concepcion, Tarlac</p>
+           <p>09750284536</p>
+           <p>sylamariecumuyog@outlook.com</p>
            </div>
            <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d61567.54854079957!2d120.64670027833938!3d15.323768494887478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1716660387534!5m2!1sen!2sph" 
@@ -41,13 +43,17 @@
             <form action="#" method="post">
                 <input type="text" name="username" placeholder="Your Name" required><br>
                 <input type="text" name="email" placeholder="Your Email" required><br>
-                <select name="inquiry">
-                    <option value="" selected disabled>Choose one...</option>
-                    <option value="general">General Inquiry</option>
-                    <option value="question">Reservation Question</option>
-                    <option value="suggestion">Website Suggestion</option>
-                </select><br>
+                <label>Please select the type of inquiry:</label>
+            <div class="inquiry">
+                <input type="radio" name="inquiry" value="general"> General Inquiry
+                <input type="radio" name="inquiry" value="reservation"> Reservation Question
+                <input type="radio" name="inquiry" value="suggestion"> Website Suggestion
+            </div>
                 <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+                <label>
+                    <input type="checkbox" name="subscribe" value="yes">
+                    Please subscribe to the monthly newsletter
+                </label><br><br>
                 <button type="submit">Submit</button>
             </form>
            </div>
