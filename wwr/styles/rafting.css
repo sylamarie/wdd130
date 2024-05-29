@@ -98,13 +98,18 @@ body {
 }
 
 .contact-form input, .contact-form select, .contact-form textarea {
-  width: 80%;
+  width: 100%;
   padding: 10px;
   margin: 5px 0;
 }
 
+.inquiry {
+  text-align: center;
+}
 
-
+.subscribe {
+  text-align: center;
+}
 
 
 
@@ -280,9 +285,9 @@ section h2 {
   border: 1px solid black;
   text-align: center;
   font-size: 20px;
-  margin: 1rem -4rem 1rem 0.8rem;
+  margin: 1rem -4rem 1rem 0.7rem;
   display: grid;
-  grid-template-columns: 700px 1fr;
+  grid-template-columns: 550px 1fr;
   align-items: center;
   font-family: 'Playfair Display';
   padding-left: 140px;
