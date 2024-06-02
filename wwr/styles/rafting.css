@@ -139,7 +139,7 @@ h1 {
 
 article h2 {
   display: flex;
-  color: rgb(15, 79, 116);
+  color: #092239;
   font-family: 'Briem Hand';
   text-align: center;
   font-size: 30px;
@@ -214,6 +214,7 @@ img article {
 .history h2 {
   padding-bottom: 10px;
   text-align: center;
+  color: #092239;
 }
 
 .para {
@@ -252,6 +253,7 @@ img article {
 .adventure h2 {
   padding-bottom: 10px;
   text-align: center;
+  color: #092239;
 }
 
 section {
@@ -262,7 +264,7 @@ section h2 {
   text-align: center;
   margin-bottom: 20px;
   border-bottom: 1px solid black;
-  background-color: rgb(96, 144, 172);
+  background-color: rgba(154, 185, 202, 0.582);
 }
 
 .gallery {
